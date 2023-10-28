@@ -13,12 +13,11 @@
 	* `sudo mv -f geckodriver /usr/local/share/geckodriver`
 	* `sudo ln -s /usr/local/share/geckodriver /usr/local/bin/geckodriver`
 	* `sudo ln -s /usr/local/share/geckodriver /usr/bin/geckodriver`
-3. Clone the repo with `https://github.com/SAZZAD-AMT/HACK-WHATSAPP-SJACKING.git` 
-then do `cd HACK-WHATSAPP-SJACKING/QRLJacker`
+3. Clone the repo with `https://github.com/SAZZAD-AMT/HACK-WHATSAPP-SJACKING.git` then do `cd QRLJacker`
 4. Install all the requirements with `pip install -r requirements.txt`
 5. Now you can run the framework with `python QrlJacker.py --help`
 6. Now you can run the framework with `python QrlJacker.py`
-7. `list`
+7. check: `list`
 8. select options: `use grabber/whatsapp`
 9. ports details : `options`
 10. set port: `set port 5656` any port you can use.
