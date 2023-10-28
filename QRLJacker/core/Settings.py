@@ -1,6 +1,5 @@
 #!/usr/bin/python3.7
-# Here I put all the constant things between the scripts so I don't forget them
-# Also give myself another reason to start refactoring the whole code in OOP :D
+
 
 from core.color import *
 global debug,development,verbose

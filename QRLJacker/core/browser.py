@@ -98,18 +98,7 @@ class headless_browsers:
             controller = self.browsers[module_name]["Controller"]
             if controller:
                 while self.browsers[module_name]["Status"] == "Success":
-                    # Look for the xpath contained in "change_identifier"
-                    # variable. This must be the Xpath of an element 
-                    # present only in the page that we reach after the 
-                    # attack has been successful. If the element is found
-                    # by Xpath the attack has been successful
-                    #
-                    # Conversely, if the element has not been found, it 
-                    # means that we are still on the QRCode page and the
-                    # session has not yet been created. The attack has not
-                    # yet been successfully completed. In this case Try 
-                    # to Catch "Unable to locate element: <xpath>" and
-                    # continue listening for a session
+                   
                     try: 
                         identifier = controller.find_element(By.XPATH, change_identifier)
                         if identifier:
@@ -273,25 +262,7 @@ class headless_browsers:
         status("Session saved successfully")
 
     def save_profile(self, module_name):
-        # Note:
-        #
-        # function "close()" closes the current window
-        # function "quit()" closes the entire session
-        #
-        # When calling "close()", if there is 1 window
-        # left, the entire session will also be closed
-        #
-        # When the session is closed, the profile path 
-        # declared in "moz:profile" is deleted:
-        #   example logic https://github.com/SeleniumHQ/selenium/blob/e4b87d445601fcb1f9bbb2dcc6f47848673ce800/py/selenium/webdriver/firefox/webdriver.py#L213
-        # 
-        # This means that interacting with previously 
-        # saved session will throw a "file not found"
-        # exception when trying to load the profile
-        # saved in the ".pf" files
-        # 
-        # Workaround: set directory as read only using
-        # function "os.chmod()"
+       
         browser = self.browsers[module_name]["Controller"]
         profile_file_name = os.path.join( "profiles",time.ctime().replace(" ","-")) + ".pf"
         profile_file = open(profile_file_name,"w")
