@@ -8,6 +8,7 @@
 
 1. Update Firefox browser to the latest version
 2. Install the latest geckodriver and extract the file then do :
+    * `tar -xvf geckodriver-v0.33.0-linux64.tar.gz`
 	* `chmod +x geckodriver`
 	* `sudo mv -f geckodriver /usr/local/share/geckodriver`
 	* `sudo ln -s /usr/local/share/geckodriver /usr/local/bin/geckodriver`
