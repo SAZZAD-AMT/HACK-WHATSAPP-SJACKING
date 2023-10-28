@@ -1,6 +1,6 @@
 #!/usr/bin/python3.7
 # -*- coding: utf-8 -*-
-
+#Written by: Karim shoair - D4Vinci ( QrlJacker-Framework )
 from sys import version_info as py_ver
 import argparse,os
 if ( py_ver.major==3 and py_ver.minor<7 ):

@@ -1,5 +1,5 @@
 #!/usr/bin/python3.7
-
+#Written by: Karim shoair - D4Vinci ( QrlJacker-Framework )
 import sys, os, time, random, importlib, readline, atexit
 from .color import *
 from terminaltables import AsciiTable as table

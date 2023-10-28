@@ -1,6 +1,6 @@
 #!/usr/bin/python3.7
 # -*- coding: utf-8 -*-
-
+# Written by: Karim shoair - D4Vinci ( QrlJacker-Framework )
 from core import utils,Settings,Cli,db,browser
 from core.color import *
 from core.module_utils import *
