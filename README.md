@@ -25,3 +25,8 @@
 12. session check: `sessions`
 13. connect Whatsapp with Browser: `sessions -i 0` you have to choose the sessions number.
 14. Done
+
+## image instructions 
+<div align="center">
+    <img src="https://github.com/SAZZAD-AMT/s.portfolio.con/blob/main/qw.jpg?raw=true" >
+</div>
