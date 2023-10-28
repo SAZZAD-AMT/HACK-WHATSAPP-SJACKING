@@ -1,6 +1,5 @@
 # HACK-WHATSAPP-SJACKING
 
-
 ## Prerequisites before installing:
 1. Linux or MacOS. (Not working on windows)
 2. Python 3.7+

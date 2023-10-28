@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-# Written by: Karim shoair - D4Vinci ( QrlJacker-Framework )
+
 from core.module_utils import types
 
 class info:

@@ -1,5 +1,4 @@
-#!/usr/bin/python3.7
-# Written by: Karim shoair - D4Vinci ( QrlJacker-Framework )
+
 import os,importlib
 from . import utils
 

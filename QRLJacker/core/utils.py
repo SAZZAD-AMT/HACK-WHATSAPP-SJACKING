@@ -1,5 +1,5 @@
 #!/usr/bin/python3.7
-#Written by: Karim shoair - D4Vinci ( QrlJacker-Framework )
+
 import sys, os, time, random, importlib, readline, atexit
 from .color import *
 from terminaltables import AsciiTable as table
@@ -15,7 +15,7 @@ def banner(m):
     grabbers = len([ i for i in m if "grabber" in i])
     post = len([ i for i in m if "post" in i])
     banner_to_print  = Bold+G + banner.format(Name=f"{end+R}QrlJacker-Framework {end+B}By {Bold}@D4Vinci -{M} V{v+end+Bold+G}",
-                                      Description=f"{end+C}Attack vector By Mohamed Abdelbasset Elnouby {end+Bold+B}(@SymbianSyMoh){end+Bold+G}",
+                                      Description=f"{end+C}Attack vector By Sazzad Hossen {end+Bold+B}(@SymbianSyMoh){end+Bold+G}",
                                        Loaded=f"{end+B}Loaded {end+R}{grabbers}{end+B} grabber(s), {end+R}{post}{end+B} post module(s).{G+Bold}") + end
     print(banner_to_print)
     return
