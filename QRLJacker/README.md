@@ -1,8 +1,4 @@
 
-## Screenshot
-![alt img](Screenshots/Screenshot1.png)
-[Youtube Tutorial for installing and running it](https://www.youtube.com/watch?v=sYtH5-K2JZc)
-
 ## Prerequisites before installing:
 1. Linux or MacOS. (Not working on windows)
 2. Python 3.7+
